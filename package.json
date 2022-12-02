@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "<Description here>",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon node server.js"
   },

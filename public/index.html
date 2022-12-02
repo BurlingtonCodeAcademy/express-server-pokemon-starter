@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Server</title>
+  </head>
+  <body>
+    <h1>Hello Pokemon</h1>
+    <form action="/pokemon" method="post">
+      <fieldset>
+        <legend>Create your Pokemon</legend>
+        <section>
+          <label for="name-input">Pokemon Name</label>
+          <input id="name-input" name="pokemonName" type="text" />
+        </section>
+        <section>
+          <label for="hitPoints-input">Pokemon HitPoints</label>
+          <input id="hitPoints-input" name="hitPoints" type="number" />
+        </section>
+        <section>
+          <label for="attack-input">Pokemon Attack</label>
+          <input id="attack-input" name="attack" type="number" />
+        </section>
+        <section>
+          <label for="defense-input">Pokemon Defense</label>
+          <input id="defense-input" name="defense" type="number" />
+        </section>
+        <section>
+          <label for="description-input">Pokemon Description</label>
+          <input id="hitPoints-input" name="description" type="text" />
+        </section>
+        <section>
+          <input
+            id="submit-input"
+            name="name"
+            type="submit"
+            value="Create Pokemon"
+          />
+        </section>
+      </fieldset>
+    </form>
+  </body>
+</html>
